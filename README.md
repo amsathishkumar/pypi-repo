@@ -66,16 +66,20 @@ global.index-url='http://202.81.192.15:8081/repository/PyPi_Test/simple'
 
 ### set path=%path$; C:\Program Files\nodejs\;C:\Users\satmunia\AppData\Local\Programs\Python\Python36;C:\Users\satmunia\AppData\Local\Programs\Python\Python36\Lib\site-packages;C:\Users\satmunia\AppData\Local\Programs\Python\Python36\Scripts
 
-Verify the Path:
-C:\Users\satmunia\Desktop>echo %path%
+## Verify the Path:
+
+### C:\Users\satmunia\Desktop>echo %path%
 C:\Program Files\nodejs\;C:\Users\satmunia\AppData\Local\Programs\Python\Python36;C:\Users\satmunia\AppData\Local\Programs\Python\Python36\Lib\site-packages;C:\Users\satmunia\AppData\Local\Programs\Python\Python36\Scripts
 
-Install Wheel Package: 
-C:\Users\satmunia\Desktop>pip install wheel
+## Install Wheel Package: 
 
-Create your Own Package:
-Create directory C:\Users\satmunia\pypi-repo
-Create file under package name: pymod with modules as below
+### C:\Users\satmunia\Desktop>pip install wheel
+
+## Create your Own Package:
+
+### Create directory C:\Users\satmunia\pypi-repo
+
+### Create file under package name: pymod with modules as below
 __init__.py
 from . add import add
 from . sub import sub
@@ -86,14 +90,14 @@ sub.py
 def sub(x, y):
     return x - y
 
-Run the command : C:\Users\satmunia\pypi-repo> python setup.py sdist bdist_wheel upload -r nexus
+## Run the command : C:\Users\satmunia\pypi-repo> python setup.py sdist bdist_wheel upload -r nexus
 
-Verify below directories are Created:
+## Verify below directories are Created:
 pymod.egg-info
 dist
 build
 
-Verify Nexus Distribution list :
+## Verify Nexus Distribution list :
 C:\Users\satmunia\Desktop>pip search pymod
 pymod (1.1)  - A sat math package
 
