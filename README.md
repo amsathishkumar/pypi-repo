@@ -9,6 +9,13 @@ tar -xvf nexus-3.15.2-01-unix.tar.gz
 ./nexus-3.15.2-01/bin/nexus status
 ./nexus-3.15.2-01/bin/nexus run
 
+TO run as Service
+sudo update-rc.d nexus defaults
+sudo service nexus start
+sudo service nexus status
+sudo service nexus stop
+
+
 
 Installation:
 https://help.sonatype.com/learning/repository-manager-3/first-time-installation-and-setup/lesson-1%3A--installing-and-starting-nexus-repository-manager#Lesson1:InstallingandStartingNexusRepositoryManager-UnpackingtheFileandLaunchingNXRM3
