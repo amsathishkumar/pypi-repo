@@ -52,8 +52,9 @@ C:\Users\satmunia\pip\pip.ini
 index = http://202.81.192.15:8081/repository/pypi-host/pypi
 index-url = http://202.81.192.15:8081/repository/pypi-host/simple
 
-Verify the configuration:
-C:\Users\satmunia\Desktop>pip config list -v
+## Verify the configuration:
+
+### C:\Users\satmunia\Desktop>pip config list -v
 For variant 'global', will try loading 'C:\ProgramData\pip\pip.ini'
 For variant 'user', will try loading 'C:\Users\satmunia\pip\pip.ini'
 For variant 'user', will try loading 'C:\Users\satmunia\AppData\Roaming\pip\pip.ini'
@@ -61,8 +62,9 @@ global.index='http://202.81.192.15:8081/repository/PyPi_Test/pypi'
 global.index-url='http://202.81.192.15:8081/repository/PyPi_Test/simple'
 
 
-Set the Windows Path: 
-set path=%path$; C:\Program Files\nodejs\;C:\Users\satmunia\AppData\Local\Programs\Python\Python36;C:\Users\satmunia\AppData\Local\Programs\Python\Python36\Lib\site-packages;C:\Users\satmunia\AppData\Local\Programs\Python\Python36\Scripts
+## Set the Windows Path: 
+
+### set path=%path$; C:\Program Files\nodejs\;C:\Users\satmunia\AppData\Local\Programs\Python\Python36;C:\Users\satmunia\AppData\Local\Programs\Python\Python36\Lib\site-packages;C:\Users\satmunia\AppData\Local\Programs\Python\Python36\Scripts
 
 Verify the Path:
 C:\Users\satmunia\Desktop>echo %path%
