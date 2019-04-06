@@ -3,6 +3,12 @@ PYPI with Nexus done
 
 Download URL: https://www.sonatype.com/download-oss-sonatype
 Nexus Repository Manager OSS 3.x - Unix
+nexus-3.15.2-01-unix.tar.gz
+tar -xvf nexus-3.15.2-01-unix.tar.gz
+
+./nexus-3.15.2-01/bin/nexus status
+./nexus-3.15.2-01/bin/nexus run
+
 
 Installation:
 https://help.sonatype.com/learning/repository-manager-3/first-time-installation-and-setup/lesson-1%3A--installing-and-starting-nexus-repository-manager#Lesson1:InstallingandStartingNexusRepositoryManager-UnpackingtheFileandLaunchingNXRM3
