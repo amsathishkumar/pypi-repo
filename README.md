@@ -27,19 +27,27 @@ sudo service nexus stop
 
 
 
-Installation:
+## Installation:
+
 https://help.sonatype.com/learning/repository-manager-3/first-time-installation-and-setup/lesson-1%3A--installing-and-starting-nexus-repository-manager#Lesson1:InstallingandStartingNexusRepositoryManager-UnpackingtheFileandLaunchingNXRM3
 
 
-System Nexus Server:
+## Nexus Server:
+
 http://202.81.192.15:8081/#browse/browse
+
 admin/admin123
 
-Create the Nexus Repository : click on Home >> Settings : http://202.81.192.15:8081/#admin/repository/repositories
+## Create the Nexus Repository
+
+click on Home >> Settings : http://202.81.192.15:8081/#admin/repository/repositories
+
 Repository name: Pypi-host
 
-Create the file 
+## Create the file 
+
 C:\Users\satmunia\pip\pip.ini
+
 [global]
 index = http://202.81.192.15:8081/repository/pypi-host/pypi
 index-url = http://202.81.192.15:8081/repository/pypi-host/simple
