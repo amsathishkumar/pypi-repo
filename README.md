@@ -97,11 +97,12 @@ pymod.egg-info
 dist
 build
 
-## Verify Nexus Distribution list :
-C:\Users\satmunia\Desktop>pip search pymod
+## Verify Nexus Distribution list
+
+### C:\Users\satmunia\Desktop>pip search pymod
 pymod (1.1)  - A sat math package
 
-C:\Users\satmunia\Desktop>pip install "pymod==1.1" -v --trusted-host 202.81.192.15
+### C:\Users\satmunia\Desktop>pip install "pymod==1.1" -v --trusted-host 202.81.192.15
 Config variable 'Py_DEBUG' is unset, Python ABI tag may be incorrect
 Config variable 'WITH_PYMALLOC' is unset, Python ABI tag may be incorrect
 Created temporary directory: C:\Users\satmunia\AppData\Local\Temp\pip-ephem-wheel-cache-kdff9df4
@@ -131,7 +132,7 @@ Successfully installed pymod-1.1
 Cleaning up...
 Removed build tracker 'C:\\Users\\satmunia\\AppData\\Local\\Temp\\pip-req-tracker-77yh3__b'
 
-C:\Users\satmunia\Desktop>pip search pymod
+## C:\Users\satmunia\Desktop>pip search pymod
 pymod (1.1)  - A sat math package
   INSTALLED: 1.1 (latest)
                                                                
