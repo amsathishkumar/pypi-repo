@@ -1,12 +1,18 @@
 # pypi-repo
 PYPI with Nexus done
 
-## Download URL: https://www.sonatype.com/download-oss-sonatype
+## Download 
+
+URL: https://www.sonatype.com/download-oss-sonatype
+
 Nexus Repository Manager OSS 3.x - Unix
+
 nexus-3.15.2-01-unix.tar.gz
+
 tar -xvf nexus-3.15.2-01-unix.tar.gz
 
 ./nexus-3.15.2-01/bin/nexus status
+
 ./nexus-3.15.2-01/bin/nexus run
 
 ## To run as Service
