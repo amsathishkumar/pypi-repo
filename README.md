@@ -1,6 +1,12 @@
 # pypi-repo
-pypi-repo
 PYPI with Nexus done
+
+Download URL: https://www.sonatype.com/download-oss-sonatype
+Nexus Repository Manager OSS 3.x - Unix
+
+Installation:
+https://help.sonatype.com/learning/repository-manager-3/first-time-installation-and-setup/lesson-1%3A--installing-and-starting-nexus-repository-manager#Lesson1:InstallingandStartingNexusRepositoryManager-UnpackingtheFileandLaunchingNXRM3
+
 
 System Nexus Server:
 http://202.81.192.15:8081/#browse/browse
