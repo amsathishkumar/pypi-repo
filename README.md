@@ -35,7 +35,7 @@ Install Wheel Package:
 C:\Users\satmunia\Desktop>pip install wheel
 
 Create your Own Package:
-Create directory E:\satpy\pymod
+Create directory C:\Users\satmunia\pypi-repo
 Create file under package name: pymod with modules as below
 __init__.py
 from . add import add
@@ -47,7 +47,7 @@ sub.py
 def sub(x, y):
     return x - y
 
-Run the command : E:\satpy> python setup.py sdist bdist_wheel upload -r nexus
+Run the command : C:\Users\satmunia\pypi-repo> python setup.py sdist bdist_wheel upload -r nexus
 
 Verify below directories are Created:
 pymod.egg-info
