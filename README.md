@@ -138,5 +138,7 @@ pymod (1.1)  - A sat math package
                                                                
 
  
+## python setup.py develop
 
+This will install a link file in the site-packages folder that points to where ever your package resides. This is great for testing without actually installing your package.
 
