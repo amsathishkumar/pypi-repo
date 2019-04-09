@@ -142,3 +142,28 @@ pymod (1.1)  - A sat math package
 
 This will install a link file in the site-packages folder that points to where ever your package resides. This is great for testing without actually installing your package.
 
+## Windows-10 .exe Creation
+
+### download windows SDK
+
+https://blogs.technet.microsoft.com/yongrhee/2015/08/11/download-windows-10-software-development-kit-sdk/
+
+### winsdk_web
+### 
+### C:\Users\satmunia>pip install "C:\Users\satmunia\Downloads\cx_Freeze-5.1.1-cp36-cp36m-win_amd64.whl"
+Looking in indexes: http://202.81.192.15:8081/repository/pypi-host/simple
+Processing c:\users\satmunia\downloads\cx_freeze-5.1.1-cp36-cp36m-win_amd64.whl
+Installing collected packages: cx-Freeze
+Successfully installed cx-Freeze-5.1.1
+
+### create setup.py https://www.geeksforgeeks.org/using-cx_freeze-python/
+
+from cx_Freeze import setup, Executable 
+  
+setup(name = "sat" , 
+      version = "0.1" , 
+      description = "" , 
+      executables = [Executable("helo.py")]) 
+### Run python setup.py build
+exe.win-amd64-3.6 will be create with exe and dependency.
+
