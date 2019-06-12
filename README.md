@@ -91,6 +91,8 @@ C:\Program Files\nodejs\;C:\Users\satmunia\AppData\Local\Programs\Python\Python3
 ### Create directory C:\Users\satmunia\pypi-repo
 
 ### Create file under package name: pymod with modules as below
+
+'''
 __init__.py
 from . add import add
 from . sub import sub
@@ -100,6 +102,7 @@ def add(x, y):
 sub.py
 def sub(x, y):
     return x - y
+'''
 
 ## Run the command : C:\Users\satmunia\pypi-repo> python setup.py sdist bdist_wheel upload -r nexus
 
