@@ -52,6 +52,17 @@ C:\Users\satmunia\pip\pip.ini
 index = http://202.81.192.15:8081/repository/pypi-host/pypi
 index-url = http://202.81.192.15:8081/repository/pypi-host/simple
 
+
+C:\Users\satmunia\.pypirc
+[distutils]
+index-servers = nexus
+ 
+[nexus]
+repository = http://202.81.192.15:8081/repository/pypi-host/
+username = admin
+password = admin123
+
+
 ## Verify the configuration:
 
 ### C:\Users\satmunia\Desktop>pip config list -v
